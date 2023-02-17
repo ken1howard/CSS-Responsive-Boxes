@@ -1,3 +1,93 @@
 body {
-  background: papayawhip;
+  text-align: center;
+  background-color: papayawhip;
+  margin: 0;
 }
+h1{
+  margin: 0;
+}
+.a {
+  background: red;
+  line-height: 5;
+  
+  }
+  
+  .b {
+  background: blue;
+  line-height: 10;
+  
+  }
+  
+  .c {
+  background: green;
+  line-height: 5;
+  
+  }
+
+  .d {
+background: purple;
+line-height: 5;
+  }
+
+  .e {
+background: gray;
+line-height: 5;
+  }
+
+  .f {
+background: yellow;
+line-height: 5;
+  }
+  @media (min-width: 0px) {
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    
+    }
+    .a {
+      width: 100%;
+    }
+    
+    .b {
+      width: 100%;
+    }
+    
+    .c, .d, .e {
+      flex: 0.4;
+    }
+    .f {
+      width: 100%;
+    }
+    }
+  @media (min-width: 600px) {
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    
+    }
+    .a {
+      width: 100%;
+    }
+    
+    .b {
+      width: 90%;
+     
+    }
+    
+    .f {
+    flex: 3;
+    align-items: flex-end;
+  
+    
+    }
+    .c, .d, .e {
+      flex: 1;
+      align-items: flex-start;
+      
+      
+    }
+  }

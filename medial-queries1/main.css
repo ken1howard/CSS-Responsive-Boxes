@@ -1,3 +1,47 @@
 body {
-  background: blanchedalmond;
+  text-align: center;
+  background-color: blanchedalmond;
+  margin: 0;
+  border: 5px double grey;
+}
+h1{
+  margin: 0;
+}
+.a {
+background: blanchedalmond;
+line-height: 5;
+border: 5px double grey;
+}
+
+.b {
+background: blanchedalmond;
+line-height: 15;
+border: 5px double grey;
+}
+
+.c {
+background: blanchedalmond;
+line-height: 5;
+border: 5px double grey;
+}
+
+@media (min-width: 600px) {
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.a {
+  width: 100%;
+}
+
+.b {
+  flex: 1;
+}
+
+.c {
+  flex: 0.4;
+}
 }

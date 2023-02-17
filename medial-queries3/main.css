@@ -1,3 +1,114 @@
 body {
   background: peachpuff;
 }
+body {
+  text-align: center;
+  background-color: peachpuff;
+  margin: 0;
+}
+h1{
+  margin: 0;
+}
+.a {
+  background: red;
+  line-height: 5;
+  
+  }
+  
+  .b {
+  background: blue;
+  line-height: 10;
+  
+  }
+  
+  .c {
+  background: green;
+  line-height: 5;
+  
+  }
+
+  .d {
+background: purple;
+line-height: 5;
+  }
+
+  .e {
+background: gray;
+line-height: 5;
+  }
+
+  .f {
+background: yellow;
+line-height: 5;
+
+  }
+  .g {
+    background-color: aquamarine;
+    line-height: 5;
+  }
+
+  .h {
+    background: pink;
+    line-height: 5;
+  }
+
+  @media (min-width: 0px) {
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    
+    }
+    .a {
+      width: 100%;
+    }
+    
+    .b, .c, .d {
+flex: 2 ;
+line-height: 5;
+    }
+      
+    
+    .e, .f, .g {
+flex: 2;
+    }
+    .h {
+      width: 100%;
+    
+      
+    }
+    .break {
+      flex-basis: 100%;
+      height: 0;
+    }
+    }
+
+    @media (min-width: 600px) {
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      
+      }
+      .a {
+        width: 100%;
+      }
+      
+      .b, .c, .d {
+  flex: 2 ;
+  line-height: 5;
+      }
+        
+      
+      .e, .f, .g {
+  flex: 2;
+      }
+      .h {
+        width: 30%;
+      
+        
+      }
+     
+      }
